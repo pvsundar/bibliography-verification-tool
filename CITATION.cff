@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+type: software
+title: "Bibliography Verification Tool v1.0"
+subtitle: "Automated reference verification against CrossRef and PubMed"
+abstract: "Production-grade Python tool for verifying academic bibliographies against CrossRef and PubMed databases. Handles journal articles, books, classics/translations, and ancient texts with fuzzy title matching and automated DOI lookup."
+authors:
+  - family-names: "Balakrishnan"
+    given-names: "P. V. (Sundar)"
+    orcid: "https://orcid.org/0000-0002-2856-5543"
+date-released: 2025-11-12
+version: 1.0.0
+keywords:
+  - bibliography
+  - reference-verification
+  - academic-publishing
+  - crossref
+  - pubmed
+license: MIT
+repository-code: https://github.com/pvsundar/bibliography-verification-tool
+repository: https://github.com/pvsundar/bibliography-verification-tool
+documentation: https://github.com/pvsundar/bibliography-verification-tool#readme
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Balakrishnan"
+      given-names: "P. V. (Sundar)"
+      orcid: "https://orcid.org/0000-0002-2856-5543"   # ✔ CORRECT ORCID
+  title: "Bibliography Verification Tool v1.0"
+  subtitle: "Automated reference verification against CrossRef and PubMed"
+  year: 2025
+  url: https://github.com/pvsundar/bibliography-verification-tool
