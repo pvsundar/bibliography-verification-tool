@@ -12,8 +12,81 @@ Supports journal articles, books, translations, and ancient texts;
 performs fuzzy title matching; retrieves DOIs; and generates detailed
 verification reports for peer-review workflows.\
 Tested and ready for publication requirements as of November 2025.
-
 --------------------------------------------------------------------------
+✨ How to Use This Tool (Quick Start for Any Manuscript)
+📘 How to Use the Bibliography Verification Tool
+This section explains how to run the tool on any new manuscript.
+
+1. Prepare your folder
+Create a folder for your manuscript:
+
+MyManuscript/
+Place the following inside:
+
+bibliography.docx
+verify_bibliography_production.py
+
+Requirements for bibliography.docx:
+APA style
+Each reference is its own paragraph
+Must be .docx format
+
+2. Open a Terminal in that folder
+Navigate to the folder:
+
+cd "C:\path\to\MyManuscript"
+
+Confirm you’re in the right directory:
+
+dir
+You should see:
+
+bibliography.docx
+verify_bibliography_production.py
+
+3. Run the tool
+python verify_bibliography_production.py
+
+The tool automatically:
+
+extracts titles, years, DOIs
+queries CrossRef and PubMed
+calculates similarity scores
+identifies classics, books, in-press items
+flags issues needing manual review
+
+4. Review the output
+The following files will be created in the same folder:
+
+verification_report.csv
+verification_log.txt
+verification_for_R.csv
+extraction_failures.txt   (only if needed)
+
+Start with:
+verification_log.txt
+It shows:
+✓ VERIFIED references
+⚠ NEEDS_REVIEW items
+⌛ Ancient texts
+reasons for mismatches
+
+5. Fix and re-run
+If a reference needs correction:
+Edit it in bibliography.docx
+Save
+Re-run the script
+Outputs overwrite automatically.
+
+✔️ Summary Workflow
+1. Create folder for manuscript
+2. Put bibliography.docx + script into folder
+3. cd into folder
+4. python verify_bibliography_production.py
+5. Review verification_log.txt
+6. Fix and re-run if needed
+
+That’s it — fast, transparent, and reproducible for peer review.
 
 ## 📌 Features
 
