@@ -13,8 +13,9 @@ performs fuzzy title matching; retrieves DOIs; and generates detailed
 verification reports for peer-review workflows.\
 Tested and ready for publication requirements as of November 2025.
 --------------------------------------------------------------------------
-✨ How to Use This Tool (Quick Start for Any Manuscript)
+# ✨ How to Use This Tool (Quick Start for Any Manuscript)
 📘 How to Use the Bibliography Verification Tool
+
 This section explains how to run the tool on any new manuscript.
 
 1. Prepare your folder
