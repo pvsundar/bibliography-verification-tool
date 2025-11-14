@@ -10,7 +10,7 @@ A production-grade Python tool for automatically verifying academic bibliographi
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 ```bash
@@ -298,7 +298,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 **P. V. (Sundar) Balakrishnan**  
 Professor of Marketing Strategy & Analytics  
 University of Washington Bothell  
-📧 Email: sundar@uw.edu  
+📧 Email: [sundar@uw.edu](mailto:sundar@uw.edu)  
 🔗 ORCID: [0000-0002-2856-5543](https://orcid.org/0000-0002-2856-5543)  
 🐙 GitHub: [@pvsundar](https://github.com/pvsundar)
 
