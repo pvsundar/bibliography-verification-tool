@@ -28,7 +28,7 @@ pip install python-docx pandas requests urllib3
 
 2. **Configure email** (line 26 in script)
 ```python
-   EMAIL = "your.email@uw.edu"
+EMAIL = "your.email@uw.edu"
 ```
 
 3. **Run verification**
@@ -70,39 +70,7 @@ pip install python-docx pandas requests urllib3
 
 ## 📄 Statement of Need
 
-Academic publications rely on accurate bibliographic references to ensure scientific integrity, support citation tracking, and enable literature discovery. However, manual verification of reference metadata is time-consuming, error-prone, and impractical for manuscripts with 50–300 citations—a common scale for review articles, dissertations, and meta-analyses. Errors in bibliographies, including incorrect publication years, misattributed authorship, or incomplete metadata, undermine reproducibility and can indicate deeper quality issues during peer review.
-
-**Existing tools have significant limitations:**
-
-- **Citation managers** (Zotero, EndNote, Mendeley) focus on reference organization and formatting but do not systematically validate metadata against authoritative databases
-- **Python API libraries** (crossrefapi, habanero, biopython) provide programmatic database access but require substantial custom coding to build complete verification workflows
-- **Manual verification** against CrossRef or PubMed scales poorly, applies verification standards inconsistently, and generates no reproducible audit trail
-
-**The Bibliography Verification Tool addresses this gap** by providing a turnkey solution for automated reference validation that:
-
-1. **Extracts** bibliographic metadata from Microsoft Word documents using APA regex patterns
-2. **Queries** CrossRef and PubMed APIs with appropriate rate limiting and error handling
-3. **Matches** references using fuzzy title comparison, author verification, and year checking with reference-type-specific thresholds
-4. **Reports** detailed verification results with confidence scores and flagged issues requiring manual review
-5. **Integrates** with R/RStudio for statistical analysis and reproducible reporting
-
-**This tool serves three primary research communities:**
-
-- **Authors** preparing manuscripts need to verify all references before journal submission to ensure accuracy and avoid desk rejection
-- **Editors and reviewers** conducting quality control during peer review require systematic assessment of bibliography integrity at scale
-- **Meta-researchers** performing reproducibility audits need consistent, documented verification across multiple publications
-
-By automating the extraction-matching-reporting pipeline, this tool reduces human error, ensures consistent application of verification standards, and generates reproducible documentation of the verification process—supporting transparency initiatives in meta-research and improving overall bibliography quality in academic publishing.
-
-**Key features:**
-- Handles diverse reference types: journal articles, books, classic editions, ancient texts
-- Accommodates edge cases: original publication years for translations, pre-1800 texts excluded from verification
-- Unicode normalization for international names and diacritics
-- Composite scoring (0-100) with interpretable thresholds
-- Multiple output formats optimized for archival, review, and statistical analysis
-- Integrated R analysis scripts with pre-built visualization functions
-
-This tool advances scholarly workflows by making systematic reference verification accessible to researchers without requiring programming expertise, while providing reproducible audit trails that support best practices in academic publishing.
+Accurate bibliographic references are crucial for scientific integrity and discoverability. The Bibliography Verification Tool automates reference validation against authoritative databases (CrossRef, PubMed), minimizing manual errors and streamlining the workflow for researchers, reviewers, and editors.
 
 ---
 
@@ -162,7 +130,7 @@ If you use this tool in your research, please cite:
 
 **APA 7th Edition:**
 ```
-Balakrishnan, P. V. S. (2025). Bibliography Verification Tool v1.0: 
+Balakrishnan, P. V. (Sundar). (2025). Bibliography Verification Tool v1.0: 
 Automated reference verification against CrossRef and PubMed (Version 1.0.0) 
 [Software]. GitHub. https://github.com/pvsundar/bibliography-verification-tool
 ```
@@ -170,7 +138,7 @@ Automated reference verification against CrossRef and PubMed (Version 1.0.0)
 **BibTeX:**
 ```bibtex
 @software{Balakrishnan2025_BVT,
-  author       = {Balakrishnan, P. V. Sundar},
+  author       = {Balakrishnan, P. V. (Sundar)},
   title        = {Bibliography Verification Tool v1.0},
   subtitle     = {Automated reference verification against CrossRef and PubMed},
   year         = {2025},
@@ -200,7 +168,7 @@ This software paper describes:
 - **Target Audience**: Academic authors, journal editors, meta-researchers
 - **Novelty**: First turnkey solution integrating extraction, validation, and reproducible reporting for reference verification
 
-**Repository completeness:**
+**Repository completeness checklist:**
 - ✅ Working code with comprehensive error handling
 - ✅ Installation instructions (requirements.txt)
 - ✅ Usage examples with sample data
@@ -210,11 +178,7 @@ This software paper describes:
 - ✅ CITATION.cff with ORCID
 - ✅ Community standards (README, documentation)
 
-**JOSS Submission Status:**
-- 🔄 Submitted: [Date]
-- 📝 Review Status: [Under review / Accepted / Published]
-- 🔗 JOSS Paper: [Link when available]
-- 📄 DOI: [Assigned upon acceptance]
+**JOSS submission information will be added upon submission**
 
 ---
 
@@ -319,7 +283,7 @@ This verifies a test bibliography with known edge cases:
 
 MIT License
 
-Copyright (c) 2025 P. V. Sundar Balakrishnan
+Copyright (c) 2025 P. V. (Sundar) Balakrishnan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -331,10 +295,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## ✉️ Contact
 
-**P. V. Sundar Balakrishnan**  
+**P. V. (Sundar) Balakrishnan**  
 Professor of Marketing Strategy & Analytics  
 University of Washington Bothell  
-📧 Email: Available via university directory  
+📧 Email: sundar@uw.edu  
 🔗 ORCID: [0000-0002-2856-5543](https://orcid.org/0000-0002-2856-5543)  
 🐙 GitHub: [@pvsundar](https://github.com/pvsundar)
 
