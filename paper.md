@@ -39,7 +39,7 @@ classic editions, and ancient texts, and integrates seamlessly with R for
 quantitative assessment. It offers researchers, reviewers, and editors an
 efficient and transparent method for ensuring reference accuracy in
 academic publishing. The software is archived at Zenodo and assigned a
-permanent DOI [@Balakrishnan2025_BVT]
+permanent DOI [@Balakrishnan2025_BVT].
 
 # Statement of Need
 
@@ -181,3 +181,4 @@ public APIs provided by CrossRef and PubMed, and for the R community's
 
 [The bibliography is maintained separately in **paper.bib** as required by
 JOSS.]
+
