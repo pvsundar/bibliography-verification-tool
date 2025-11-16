@@ -17,12 +17,14 @@ ORCID: <https://orcid.org/0000-0002-2856-5543>
 
 ``` bibtex
 @software{Balakrishnan2025_BVT,
-  author       = {Balakrishnan, P. V. (Sundar)},
-  title        = {Bibliography Verification Tool v1.0},
-  subtitle     = {Automated reference verification against CrossRef and PubMed},
-  year         = {2025},
-  version      = {1.0.0},
-  url          = {https://github.com/pvsundar/bibliography-verification-tool},
+  author    = {Balakrishnan, P. V. (Sundar)},
+  title     = {Bibliography Verification Tool},
+  subtitle  = {Automated reference verification against CrossRef and PubMed},
+  year      = {2025},
+  version   = {1.0.1},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.17622390},
+  url       = {https://doi.org/10.5281/zenodo.17622390},
   orcid        = {https://orcid.org/0000-0002-2856-5543}
 }
 ```
@@ -39,5 +41,5 @@ citation.
 P. V. (Sundar) Balakrishnan Professor of Marketing Strategy & Analytics
 University of Washington, Bothell ORCID:
 <https://orcid.org/0000-0002-2856-5543>
-
+doi       = {10.5281/zenodo.17622390}
 Thank you for citing this work!
