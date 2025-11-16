@@ -5,6 +5,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![DOI](https://img.shields.io/badge/DOI-pending-lightgrey.svg)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17622390.svg)](https://doi.org/10.5281/zenodo.17622390)
 
 A production-grade Python tool for automatically verifying academic bibliographies. Supports journal articles, books, translations, and ancient texts; performs fuzzy title matching; retrieves DOIs; and generates detailed verification reports for peer-review workflows.
 
@@ -133,17 +134,24 @@ If you use this tool in your research, please cite:
 Balakrishnan, P. V. (Sundar). (2025). Bibliography Verification Tool v1.0: 
 Automated reference verification against CrossRef and PubMed (Version 1.0.0) 
 [Software]. GitHub. https://github.com/pvsundar/bibliography-verification-tool
+Zenodo. https://doi.org/10.5281/zenodo.17622390
 ```
-
+```
+Balakrishnan, P. V. (Sundar). (2025). Bibliography Verification Tool:
+Automated reference verification against CrossRef and PubMed (Version 1.0.1) 
+[Computersoftware]. Zenodo. https://doi.org/10.5281/zenodo.17622390
+```
 **BibTeX:**
 ```bibtex
 @software{Balakrishnan2025_BVT,
-  author       = {Balakrishnan, P. V. (Sundar)},
-  title        = {Bibliography Verification Tool v1.0},
-  subtitle     = {Automated reference verification against CrossRef and PubMed},
-  year         = {2025},
-  version      = {1.0.0},
-  url          = {https://github.com/pvsundar/bibliography-verification-tool}
+  author    = {Balakrishnan, P. V. (Sundar)},
+  title     = {Bibliography Verification Tool},
+  subtitle  = {Automated reference verification against CrossRef and PubMed},
+  year      = {2025},
+  version   = {1.0.1},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.17622390},
+  url       = {https://doi.org/10.5281/zenodo.17622390},
 }
 ```
 
