@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 type: software
 title: "Bibliography Verification Tool v1.0"
+doi: 10.5281/zenodo.17622390
+url: "https://doi.org/10.5281/zenodo.17622390"
 subtitle: "Automated reference verification against CrossRef and PubMed"
 abstract: "Production-grade Python tool for verifying academic bibliographies against CrossRef and PubMed databases. Handles journal articles, books, classics/translations, and ancient texts with fuzzy title matching and automated DOI lookup."
 authors:
@@ -8,7 +10,7 @@ authors:
     given-names: "P. V. (Sundar)"
     orcid: "https://orcid.org/0000-0002-2856-5543"
 date-released: 2025-11-12
-version: 1.0.0
+version: 1.0.1
 keywords:
   - bibliography
   - reference-verification
@@ -29,3 +31,5 @@ preferred-citation:
   subtitle: "Automated reference verification against CrossRef and PubMed"
   year: 2025
   url: https://github.com/pvsundar/bibliography-verification-tool
+  doi: 10.5281/zenodo.17622390
+  url: "https://doi.org/10.5281/zenodo.17622390"
